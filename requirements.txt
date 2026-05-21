@@ -1,0 +1,13 @@
+albumentations==1.4.0
+matplotlib==3.6.3
+numpy==1.26.0
+opencv_python==4.9.0.80
+opencv_python_headless==4.9.0.80
+optuna==3.5.0
+pandas==1.5.3
+patchify==0.2.3
+scipy==1.10.1
+segmentation_models_pytorch==0.3.3
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.64.1
