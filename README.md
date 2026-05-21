@@ -21,12 +21,12 @@ This repository contains a deep learning pipeline for cell segmentation and cell
 
 ## Utility Files
 
-- `utils/augment_dataset.py`: creates augmented image-mask pairs.
-- `utils/test_encoders.py`: compares U-Net encoders such as EfficientNet, ResNet, VGG, and Xception.
+- `utils/compare-treatments.py`: analyzes cell cycle phase changes under different drug treatments.
 - `utils/optimize_model_hyperparam.py`: runs Optuna-based hyperparameter optimization.
 - `utils/organize-train-data.py`: reorganizes training data by location and imaging zone.
-- `utils/compare-treatments.py`: compares cell cycle phase changes under different drug treatments.
-- `utils/*.ipynb`: experimental notebooks for augmentation and utility testing.
+- `utils/test_data_augmentation.ipynb`: tests and demonstrates data augmentation methods.
+- `utils/test_encoders.py`: compares U-Net encoders such as EfficientNet, ResNet, VGG, and Xception.
+- `utils/utils.ipynb`: contains experimental helper functions and workflow tests.
 
 ## Dataset Format
 
